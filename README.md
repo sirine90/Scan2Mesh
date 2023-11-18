@@ -18,7 +18,7 @@ Install PyTorch3D from: https://github.com/facebookresearch/pytorch3d/blob/main/
 ## Usage
 
 - Download ShapeNet dataset and store it in **data** folder
-- Reduce the meshes in ShapeNet to at most 100 vertices using the notebook **data/Generation Notebook.ipynb**
+- Reduce the meshes in ShapeNet to at most 100 vertices using the notebook **data/generation.py**
 - Train the vertix prediction model using the following command: 
   ```
   python train_vertix.py --config=configs/vertix_train.json
