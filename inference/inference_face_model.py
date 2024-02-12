@@ -8,7 +8,7 @@ class InferenceHandlerFaceModel:
 
     def __init__(self, ckpt, num_vertices, feature_size, device):
 
-        self.device=device
+        self.device = device
         self.model = FaceModel(feature_size).requires_grad_(False)
         self.model.load_state_dict(torch.load(ckpt, map_location='cpu'))
         self.model.to(self.device)
