@@ -7,7 +7,7 @@ from model.message_passing import *
 import torch_geometric.nn as gnn
 
 
-class FaceModel(nn.Module):
+class FaceModel(nn.Module): 
     def __init__(self, face_feature_size):
         super(FaceModel, self).__init__()
 
