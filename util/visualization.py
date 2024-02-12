@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 import k3d
 from matplotlib import cm, colors
-import trimesh
+import trimesh 
 
 
 def visualize_mesh(vertices, faces, flip_axes=False):
