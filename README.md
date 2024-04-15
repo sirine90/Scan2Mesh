@@ -33,7 +33,7 @@ Install PyTorch3D from: https://github.com/facebookresearch/pytorch3d/blob/main/
   ```
 - Use the visualization notebook **Visualize Results.ipynb** to visualize the trained model on ShapeNet meshes.
 
-## System Results
+## Qualitative Results
 
 
 ![visualizations](visualizations.png)
